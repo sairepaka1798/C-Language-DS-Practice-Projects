@@ -1,6 +1,8 @@
 #include<stdio.h>
 void main()
 {
-    printf("Hi there!");
-    printf("\nSample C program.");
+    int a;
+    printf("Enter Value:");
+    scanf("%d", &a);
+    printf("\n%d",a);
 }
